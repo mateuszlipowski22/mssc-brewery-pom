@@ -186,15 +186,15 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>[3.8.5,0)</version>
+                                    <version>[3.8.1,)</version>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
                                     <version>17</version>
                                 </requireJavaVersion>
-                                <reqireReleaseDeps>
+                                <requireReleaseDeps>
                                     <onlyWhenRelease>true</onlyWhenRelease>
-                                    <message>Released builds must not have on snapshot dependencies</message>
-                                </reqireReleaseDeps>
+                                    <message>Release builds must not have on snapshot dependencies</message>
+                                </requireReleaseDeps>
                             </rules>
                         </configuration>
                     </execution>
